@@ -15,7 +15,7 @@
 
   </head>
 
-  <body ng-app>
+  <body ng-app="blog">
       <div id="toolbar">
           <header>
               <div class="container">
@@ -30,7 +30,10 @@
       </div>
       
       <div class="container">
-          <div id="Navigation">
+          <div id="Navigation" ng-controller="NavController">
+              <ul>
+                  <li ng-repeat="tag in tags"><a ng-click="postUnder(tag)">{{tag}}</a></li>
+              </ul>
           </div>
           <div id="Content">
               <section id="main_content">

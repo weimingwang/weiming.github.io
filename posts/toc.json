@@ -1,0 +1,8 @@
+{
+    "tags" : ["cloud", "web service", "google", "microsoft", "native", "android" ],
+    "posts" : [
+        { "title" : "HelloWorld" , "Date" : "May 1, 2015" },
+        { "title" : "Build2015" , "Date" : "May 1, 2015", "tags" : ["microsoft"] },
+        { "title" : "Placeholder" , "Date" : "May 1, 2015" }
+    ]
+}
